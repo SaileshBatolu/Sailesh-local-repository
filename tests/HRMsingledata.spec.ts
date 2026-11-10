@@ -19,7 +19,7 @@ test.describe('HRM Emp management' , ()=>{
     test('test add emp', async ({page})=>{
 
         await emp.add_emp('sailesh', 'batolu')
-
+        console.log("ghghghj")
     })
 
     test.afterEach(async ()=>{
